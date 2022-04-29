@@ -8,13 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+    <!--Form de tarjeta-->
     <form action="" method="get">
         <h1>Detalles de Tarjeta</h1>
-        <p>Numero de Tarjeta<input type="text" name="usuario" id="vusuario"></p>
-                       
+        <p>Numero de Tarjeta<input type="text" name="card" id="vcard"></p>                      
         <p>Nombre del Títular<input type="text" name="usuario" id="vname"> </p>
-             
-        
+                  
             <p>Mes de expiración:
                 <select name=meses id="vcalM">
                     <option value="null">--seleccione</option> 
@@ -31,7 +30,7 @@
                     <option value="Nov">Noviembre</option>
                     <option value="Dic">Diciembre</option>
                 </select>
-        
+
                 <p>Año de Expiración:
                     <select name=anno id="vcalA"> 
                         <option value="null">--seleccione</option>
@@ -41,15 +40,13 @@
                         <option value="2025">2025</option>
                         <option value="2026">2026</option>
                     </select>
-
-                <p>CVC <input type="text" name="usuario" id="vname">
+<!--Info Html-->
+                <p>CVC <input type="number" name="usuario" id="vname" min="3" max="3">
+                    <p>Recuerde que son 3 números</p>
                 <a href = "info.html"> info</a>
                 </p>
-                
-            
-        <input type="submit" value="Aceptar"> <input type="reset" value="Cancelar">
-
-       
+                           
+        <input type="submit" value="Aceptar"> <input type="reset" value="Cancelar">       
     </form>
 </body>
 </html>
