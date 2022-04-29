@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+form{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    background-color: beige;
+    border: 1px solid blue;
+    border-radius: 1em;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+#vprivpol{
+    text-align: center;
+}
+
+input{
+    text-align: center justify;
+}
